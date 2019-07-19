@@ -34,7 +34,7 @@ public class CommExcelController {
         try {
             InputStream in = new FileInputStream("d://cc.xls");
             Map<String, String> fieldd = new HashMap<String, String>();
-            //从Excel表到数据库 key为Excel表头，value为数据库字段名
+            //从Excel表到数据库 key为Excel表头，value为实体类属性名
             fieldd.put("id", "id");
             fieldd.put("用户名", "username");
             fieldd.put("密码", "password");
